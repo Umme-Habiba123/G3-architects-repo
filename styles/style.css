@@ -9,6 +9,7 @@
 }
 /* header section */
 .header{
+   margin: 0 auto;
    background-color: rgba(243, 169, 84, 0.1);
 }
 .navbar{
@@ -20,9 +21,9 @@
     font-size: 18px;
     list-style: none;
     gap: 20px; 
-    font-weight: 500px;       
+    font-weight: 500px; 
+        
 }
-
 .nav-link{
     text-decoration: none;
     color: #424242;
@@ -30,43 +31,20 @@
 .nav-item{
     color: #424242;
 }
-.navbar, .banner, .banner-img{
+.head-title{ 
+    font-size: 64px;
+    font-weight: bold; 
+}
+.navbar, .banner{
     max-width: 1440px;
     margin: 0 auto;
 }
 .brand{
     font-weight: 700px;
-    font-size: 3rem
+    font-size: 3em
 }
-/* banner style */
-.banner-content{
-    max-width: 850px;
-    margin: 0 auto;
-    text-align: center;
-}
-.head-title{ 
-    font-size: 4rem;
-    font-weight: bold; 
-}
-.banner-img{
-    width: 100%;
-    padding: 50px 250px;
-}
-.btn-primary{
-   background-color: rgba(255, 144, 14, 1); 
-   font-size: 1.25rem;
-   font-weight: 600px;
-   color: white;
-   border-radius: 8px;
-   padding: 20px 25px;
-   border: none;
-}
-@media screen and (max-width:576px) {
-    .navbar, .four-steps{
-       flex-direction: column;
-    }
-         
-    }
-    
 
-    
+
+
+
+/*  */
